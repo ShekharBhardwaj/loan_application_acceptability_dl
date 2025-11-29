@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.DS_Store
+**/.DS_Store
+*.so
+*.dylib
+*.dll
+*.egg-info/
+*.egg
+*.local
+
+# virtual environments
+.env
+.venv
+env/
+venv/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Jupyter
+.jupyter/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# data/artifacts
+trained_model.pth
+data/*.tmp
+
